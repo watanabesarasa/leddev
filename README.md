@@ -19,10 +19,10 @@ cd leddev
 make
 sudo insmod myled.ko
 sudo chmod 666 /dev/myled0
-echo 1 > /dev/myled0 //2LEDs flash
-echo 0 > /dev/myled0 //2LEDs solid
-echo 3 > /dev/myled0 //Left LED flash
-echo 2 > /dev/myled0 //Left LED solid
-echo 5 > /dev/myled0 //Right LED flash
-echo 4 > /dev/myled0 //Right LED solid
+echo 0 > /dev/myled0 //消す
+echo 1 > /dev/myled0 //光る
+echo 2 > /dev/myled0 //2回点滅
+echo 3 > /dev/myled0 //3回点滅
+echo 4 > /dev/myled0 //4回点滅
+echo 5 > /dev/myled0 //カエルの歌のリズムで光る
 ```
