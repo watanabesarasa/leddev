@@ -1,3 +1,28 @@
 # leddev
-ledを光らせます
+robsys2018 課題１
+Lチカ
 
+## 概要
+LEDを光らせるデバイスドライバ
+
+## 必要なもの
+-Raspberry Pi 3 Model B V1.2
+  -Raspbian
+-LED 1つ
+-Linux カーネルソース
+  -カーネルソース を /usr/src/linux　にダウンロード
+  - [Qiita](https://github.com/ryuichiueda/raspberry_pi_kernel_build_scripts.git)
+
+## 使用方法
+```
+cd leddev
+make
+sudo insmod myled.ko
+sudo chmod 666 /dev/myled0
+echo 1 > /dev/myled0 //2LEDs flash
+echo 0 > /dev/myled0 //2LEDs solid
+echo 3 > /dev/myled0 //Left LED flash
+echo 2 > /dev/myled0 //Left LED solid
+echo 5 > /dev/myled0 //Right LED flash
+echo 4 > /dev/myled0 //Right LED solid
+```
