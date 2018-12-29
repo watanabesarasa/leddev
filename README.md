@@ -26,6 +26,11 @@ echo 3 > /dev/myled0 //3回点滅
 echo 4 > /dev/myled0 //4回点滅
 echo 5 > /dev/myled0 //カエルの歌のリズムで光る
 ```
+
 ## Licence
--  GPLv3 license
--  
+-  GPLv3ライセンスに基づく
+-  [Licence](https://github.com/watanabesarasa/leddev/blob/master/LICENSE)
+
+## 動画
+### リンク
+URL：
