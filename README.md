@@ -3,7 +3,7 @@ robsys2018 課題１
 Lチカ
 
 ## 概要
-LEDを光らせるデバイスドライバ
+LEDを様々に光らせるデバイスドライバ
 
 ## 必要なもの
 -  Raspberry Pi 3 Model B V1.2
@@ -11,7 +11,7 @@ LEDを光らせるデバイスドライバ
 -  LED 1つ
 -  Linux カーネルソース
   -  カーネルソース を /usr/src/linux　にダウンロード
-  -  [https://github.com/ryuichiueda/raspberry_pi_kernel_build_scripts.git]
+  -  https://github.com/ryuichiueda/raspberry_pi_kernel_build_scripts.git
 
 ## 使用方法
 ```
@@ -26,3 +26,6 @@ echo 3 > /dev/myled0 //3回点滅
 echo 4 > /dev/myled0 //4回点滅
 echo 5 > /dev/myled0 //カエルの歌のリズムで光る
 ```
+## Licence
+-  GPLv3 license
+-  
