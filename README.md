@@ -6,12 +6,12 @@ Lチカ
 LEDを光らせるデバイスドライバ
 
 ## 必要なもの
--Raspberry Pi 3 Model B V1.2
-  -Raspbian
--LED 1つ
--Linux カーネルソース
-  -カーネルソース を /usr/src/linux　にダウンロード
-  - [Qiita](https://github.com/ryuichiueda/raspberry_pi_kernel_build_scripts.git)
+-  Raspberry Pi 3 Model B V1.2
+  -  Raspbian
+-  LED 1つ
+-  Linux カーネルソース
+  -  カーネルソース を /usr/src/linux　にダウンロード
+  -  [https://github.com/ryuichiueda/raspberry_pi_kernel_build_scripts.git]
 
 ## 使用方法
 ```
