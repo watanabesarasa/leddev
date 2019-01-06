@@ -25,7 +25,7 @@ echo 5 > /dev/myled0 //カエルの歌のリズムで光る
 ```
 
 ## LICENCE
--  GPLv3ライセンスに基づく
+-  GNU Affero General Public License v3.0 ライセンスに基づく
 -  [LICENCE](https://github.com/watanabesarasa/leddev/blob/master/LICENSE)
 
 ## デモンストレーション
